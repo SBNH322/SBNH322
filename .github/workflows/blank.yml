@@ -1,0 +1,10 @@
+            - nama: buat-permainan-pacman-dari-kontribusi-github-grid
+  # Anda dapat menyematkan ke komit yang tepat atau versinya.
+  # penggunaan: abozanona/pacman-contribution-graph@ede2c979e14e867d428914a4cbea8f1af59758a6
+  kegunaan: abozanona/pacman-contribution-graph@1.0.10.2
+  dengan:
+    # nama pengguna github
+    nama_pengguna_github:
+    # token github digunakan untuk mengambil kalender kontribusi. Defaultnya adalah token tindakan jika kosong.
+    github_token: # opsional, defaultnya adalah ${{ github.token }}
+          
