@@ -1,10 +1,18 @@
-            - nama: buat-permainan-pacman-dari-kontribusi-github-grid
+            - nama: Tambahkan repositori pacman
   # Anda dapat menyematkan ke komit yang tepat atau versinya.
-  # penggunaan: abozanona/pacman-contribution-graph@ede2c979e14e867d428914a4cbea8f1af59758a6
-  kegunaan: abozanona/pacman-contribution-graph@1.0.10.2
+  # penggunaan: myci-actions/add-pacman-repo@73032b085fed56e5fbc05093063d06c25f9e3d70
+  kegunaan: myci-actions/add-pacman-repo@7
   dengan:
-    # nama pengguna github
-    nama_pengguna_github:
-    # token github digunakan untuk mengambil kalender kontribusi. Defaultnya adalah token tindakan jika kosong.
-    github_token: # opsional, defaultnya adalah ${{ github.token }}
+    # URL repositori
+    alamat:
+    # nama repositori
+    nama:
+    # shell yang akan digunakan
+    shell: # opsional, defaultnya adalah bash
+    # kunci repositori untuk diimpor menggunakan pacman-key
+    kunci: # opsional
+    # server kunci untuk mengimpor kunci repositori, atau URL langsung ke kunci jika "kunci" tidak ditentukan
+    server-kunci: # opsional
+    #
+    instal: # opsional
           
