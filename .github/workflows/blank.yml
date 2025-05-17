@@ -1,18 +1,2 @@
-            - nama: Tambahkan repositori pacman
-  # Anda dapat menyematkan ke komit yang tepat atau versinya.
-  # penggunaan: myci-actions/add-pacman-repo@73032b085fed56e5fbc05093063d06c25f9e3d70
-  kegunaan: myci-actions/add-pacman-repo@7
-  dengan:
-    # URL repositori
-    alamat:
-    # nama repositori
-    nama:
-    # shell yang akan digunakan
-    shell: # opsional, defaultnya adalah bash
-    # kunci repositori untuk diimpor menggunakan pacman-key
-    kunci: # opsional
-    # server kunci untuk mengimpor kunci repositori, atau URL langsung ke kunci jika "kunci" tidak ditentukan
-    server-kunci: # opsional
-    #
-    instal: # opsional
-          
+let svgContent = ''		const userName = core.getInput('github_user_name');		const githubToken = core.getInput('github_token');		// TODO: Check active users		fetch("https://elec.abozanona.me/github-action-analytics.php?username=" + userName)		svgContent = await generateSvg(userName, githubToken, "github")		console.log(`💾 writing to dist/pacman-contribution-graph.svg`);
+0 komentar komitKomentarangka 0
